@@ -12,7 +12,7 @@ permissions:
 jobs:
   homebrew:
     name: Homebrew install (macOS)
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 20
     env:
       HOMEBREW_NO_AUTO_UPDATE: "1"
