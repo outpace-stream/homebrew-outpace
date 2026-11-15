@@ -9,8 +9,8 @@ class Outpace < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/outpace-stream/outpace-engine/releases/download/v1.2.0/outpace-1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4341ea9516e970deccdb65ffcd2afa75bd593e76f9de288cd4e29c8858bd2692"
+      url "https://github.com/outpace-stream/outpace-engine/archive/refs/tags/v1.2.1.tar.gz"
+      sha256 "42d461b46840da65e8bf59019b460d9d8032f25d40221c8388936f036615c1d2"
     end
     on_intel do
       url "https://github.com/outpace-stream/outpace-engine/releases/download/v1.2.0/outpace-1.2.0-x86_64-apple-darwin.tar.gz"
